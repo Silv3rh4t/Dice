@@ -25,7 +25,7 @@ public class Dice
      */
     public static void img(String style) throws IOException
     {
-    	String dir="C:\\Dice\\"+style+"\\";
+    	String dir="C:q\\Dice\\"+style+"\\";
     	String r = ""+roll();
     	String path=dir+r+".png";
     	File f=new File(path);
